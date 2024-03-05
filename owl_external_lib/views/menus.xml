@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.actions.client" id="owl_external_screen_client_action">
+        <field name="name">OWL External Lib</field>
+        <field name="tag">owl_external_lib.OwlExternalLib</field>
+        <field name="target">current</field>
+    </record>
+    <!-- This Menu Item will appear in the Upper bar, That's why It needs NO parent or action -->
+    <menuitem id="owl_external_lib_root" name="OWL External Lib" sequence="0"
+              web_icon="owl_external_lib,static/description/icon.png"
+              action="owl_external_screen_client_action"/>
+</odoo>
