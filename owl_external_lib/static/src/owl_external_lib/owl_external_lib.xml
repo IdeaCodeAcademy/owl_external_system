@@ -2,7 +2,6 @@
 
 <templates xml:space="preserve">
     <t t-name="owl_external_lib.OwlExternalLib">
-       <h1>Hello</h1>
         <header>
   <!-- Navbar -->
             <nav class="navbar navbar-expand-lg bg-body">
