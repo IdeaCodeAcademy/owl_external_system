@@ -1,12 +1,12 @@
 /** @odoo-module **/
 
 import {registry} from "@web/core/registry";
-import {Component, useState, onWillStart, useRef} from "@odoo/owl";
-import {loadBundle} from "@web/core/assets";
+import {Component, onWillStart} from "@odoo/owl";
+
 
 class OwlExternalLib extends Component {
     setup() {
-        onWillStart(async () => {})
+        onWillStart(async () => {});
     }
 }
 
